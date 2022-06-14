@@ -71,35 +71,17 @@
 
 .container {  
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
   gap: 5% 0px;
-  grid-auto-flow: column dense;
-  justify-content: space-between;
   align-content: center;
-  width: 95%;
+  align-items: center;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.CONSULTORIA { grid-area: 1 / 2 / 2 / 3; }
-
-.CONSTRUCCION { grid-area: 1 / 4 / 2 / 5; }
-
-.TERCERIZACION { grid-area: 2 / 1 / 3 / 2; }
-
-.INVESTIGACION { grid-area: 2 / 2 / 3 / 3; }
-
-.CAPACITACION { grid-area: 2 / 3 / 3 / 4; }
-
-.SELECCION { grid-area: 1 / 1 / 2 / 2; }
-
-.SIST\.-DE-EVALUACION { grid-area: 2 / 4 / 3 / 5; }
-
-.OUTPLACEMENT { grid-area: 1 / 3 / 2 / 4; }
-
-
 .imagenes{
-  height: 300px;
+  height: 250px;
 }
 

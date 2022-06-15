@@ -17,9 +17,25 @@
   text-align: center;
 }
 .contenedor-menu li,.contenedor-menu span{
+  margin-top: 1%;
   display: inline-block;
   font-size: 20px;
   margin-right: 5%;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+}
+a:hover{
+  background-color: darkmagenta;
+  color: white;
+  font-size: 30px;
+}
+a:active{
+  background-color: green;
+  color: white;
 }
 
 
@@ -48,12 +64,18 @@
   font-size: 50px;
   margin: 4%;
   background: rgb(210, 214, 255, .75);
+  border-radius: 2%;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 900;
 }
 
 .servivio p{
   margin: 5%;
   font-size: 25px;
   background: rgb(210, 214, 255, .75);
+  border-radius: 5%;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 600;
 }
 
 .servivio li{
@@ -63,6 +85,7 @@
   margin: 2%;
   border: 2px solid black;
   background: rgb(210, 214, 255, .75);
+  border-radius: 5%;
 }
 .servivio ul{
   text-align: center;
@@ -79,6 +102,13 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.container h2{
+  font-family: 'Inconsolata', monospace;
+  font-weight: 600;
+  font-size: 28px;
+  
 }
 
 .imagenes{
